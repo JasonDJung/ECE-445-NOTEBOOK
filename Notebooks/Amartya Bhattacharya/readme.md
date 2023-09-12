@@ -8,3 +8,5 @@
 
 ## 9/12/2023
 - First meeting with TA, Jason Zhang
+- Spoke about block diagram and tolerance requirements
+- Reviewed project proposal
