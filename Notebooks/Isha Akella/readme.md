@@ -16,3 +16,9 @@ Finally, we began working on our project proposal which is due on 9/14.
 
 ## 9/12: First TA Meeting
 We had our first meeting with our TA, Jason, and discussed our project as well as our concerns. Afterward, we researched microcontrollers and development boards to find a dev board that was USB 3.0 and MIPI 2.0 compatible. 
+
+## 9/14: Project Proposal Wrap Up
+In this meeting, we finished the project proposal and found our desired image sensor/microcontroller. We sent out the email requests for the datasheets and quotes.
+
+## 9/17: Start Design Document
+We began working on the design document. 
