@@ -33,4 +33,8 @@
 * DRC: Design Rule Check , run this KiCAD when designing PCB
 ### Team Meeting after 
 * Started Design Document
-  
+# 9/24/2023 Team Meeting
+* Sourced Parts for PCB
+* Need to ask questions to TA about clock oscillator options
+* Started PCB design
+* 
