@@ -22,3 +22,9 @@ In this meeting, we finished the project proposal and found our desired image se
 
 ## 9/17: Start Design Document
 We began working on the design document. 
+
+## 9/21: Second TA Meeting/First meeting with TA and Professor Gruev
+Finalized image sensor with Prof. Gruev and discussed design document, 3D modeling, and PCB design with TA. Continued working on design document and began working on PCB design.
+
+## 9/24: PCB Design
+Sourced all required components, but cannot order due to lack of CFOP number. Worked on PCB design after adding all components to KiCAD.
