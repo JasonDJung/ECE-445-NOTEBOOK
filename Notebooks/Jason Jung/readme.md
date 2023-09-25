@@ -37,4 +37,10 @@
 * Sourced Parts for PCB
 * Need to ask questions to TA about clock oscillator options
 * Started PCB design
+#### Splitting up KiCad
+* Power: Isha
+* Camera Connection : Isha
+* Make Symbol for Camera : Jason
+* MCU (All Hands) :
+* MIPI and USB C Connectors : Amartya
 * 
