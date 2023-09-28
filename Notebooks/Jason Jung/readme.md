@@ -43,4 +43,19 @@
 * Make Symbol for Camera : Jason
 * MCU (All Hands) :
 * MIPI and USB C Connectors : Amartya
-* 
+# 9/27/2023
+* Design Document 
+# 9/28/2023 Meeting Notes with Jason Zhang and Professor Gruev
+* Logistic Boards
+  * Use Electronics Service Shop before ordering, 
+  * Go to PCB review on Tuesday
+  * Before submitting , we have to pass audit on PCBWay before submitting it on PCBWay or else it won't be able to order.
+  * have to pass audit through PCBway website BEFORE 10/10
+  * email jason P abt process to approve PCBway assembly of our board
+  * Order dev board and camera TODAY
+  * Email Gruev data sheets TODAY
+  * Email Gruev schematics early next week
+  * Start Layout before meeting w Gruev
+* Useful Links
+* https://docs.google.com/spreadsheets/u/3/d/153RUJO1VnosQzeARsF-QkoYVccRl2KKlXqfhqvoIaU0/edit#gid=0
+* https://docs.google.com/spreadsheets/d/1pqk_fN6fMIju8Ngkg-_4KTQ6uj0hrlnuv49PCC0ijBk/edit#gid=1992434365
