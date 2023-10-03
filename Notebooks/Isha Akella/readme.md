@@ -28,3 +28,15 @@ Finalized image sensor with Prof. Gruev and discussed design document, 3D modeli
 
 ## 9/24: PCB Design
 Sourced all required components, but cannot order due to lack of CFOP number. Worked on PCB design after adding all components to KiCAD.
+
+## 9/25:
+
+## 9/28: Wrapping up Design Document
+
+## 9/29: Splitting PCB components
+
+## 10/1: Cross checking PCB
+
+## 10/2: Design Review & Consolidating PCB
+
+## 10/3: PCB Questions with Jason P in OH
