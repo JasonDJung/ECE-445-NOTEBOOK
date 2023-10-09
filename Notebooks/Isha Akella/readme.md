@@ -24,7 +24,7 @@ In this meeting, we finished the project proposal and found our desired image se
 We began working on the design document. 
 
 ## 9/21: Second TA Meeting/First meeting with TA and Professor Gruev
-Finalized image sensor with Prof. Gruev and discussed design document, 3D modeling, and PCB design with TA. Continued working on design document and began working on PCB design.
+Finalized image sensor with Prof. Gruev and discussed design document, 3D modeling, and PCB design with TA. We continued working on the design document and began working on PCB design.
 
 ## 9/24: PCB Design
 Sourced all required components, but cannot order due to lack of CFOP number. Worked on PCB design after adding all components to KiCAD.
@@ -32,11 +32,19 @@ Sourced all required components, but cannot order due to lack of CFOP number. Wo
 ## 9/25:
 
 ## 9/28: Wrapping up Design Document
+In this meeting, we finished and submitted all necessary aspects for our design document.
 
 ## 9/29: Splitting PCB components
+After finalizing the design document, we split up the components for the PCB design in order to speed up the process. Our device has three main components, the MCU, image sensor, and power/USB -- we split up each of the components among the three members of our group to finish by our next meeting. 
 
 ## 10/1: Cross checking PCB
+Prior to this meeting, each member finished creating the schematic for their respective component, read all three datasheets, and looked at all other schematics. At this meeting, we cross-checked the schematics and any questions that arose during individual checking.
 
 ## 10/2: Design Review & Consolidating PCB
+We had our official design review with Jason Zhang, David Null, and Professor Fliflet. Afterward, we combined our individual PCB schematics into one schematic and connected our components. 
 
-## 10/3: PCB Questions with Jason P in OH
+## 10/3: PCB Questions at Office Hours
+Once our PCB was finalized amongst the members of our group, we attended office hours to ask questions that remained after consolidating. 
+
+## 10/6: PCB Review
+Attended the PCB review to ask more clarifying questions. Began routing our schematic and determined that 2/3 of us would continue routing before our next meeting. 
