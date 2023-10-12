@@ -59,11 +59,18 @@
 * Useful Links
 * https://docs.google.com/spreadsheets/u/3/d/153RUJO1VnosQzeARsF-QkoYVccRl2KKlXqfhqvoIaU0/edit#gid=0
 * https://docs.google.com/spreadsheets/d/1pqk_fN6fMIju8Ngkg-_4KTQ6uj0hrlnuv49PCC0ijBk/edit#gid=1992434365
-  
+# 10/02/2023:
+*
+# 10/03/2023:
+*
+* Met with Jason P to go over design questions
+# 10/05/2023:
+*
+# 10/06/2023:
+* PCB Review sesions 3-5pm
 # 10/07/2023 > 10/08/2023 :
 * Isha and Jason routed, Amartya looked into post processing
 * Generated BOM
-* 
 # 10/09/2023
 # 10/10/2023
 # 10/12/2023
