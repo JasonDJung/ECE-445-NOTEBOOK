@@ -75,3 +75,22 @@
 # 10/10/2023
 # 10/12/2023
 # 10/12/2023
+# 10/14/2023
+* Round 2 of Routing:
+* ## Setting Up Board Constraints for the Board Advanced PCB Assembly:
+* ### Hole Diameter
+  * Given Hole diameter of 0.2mm, max board thickness is 1.6mm
+  * Given Hole diameter of 0.25mm, max board thickness is 2 mm
+  * Hole Position Tolerance is +/- 0.0075 mm
+  * Aspect Ratio = Board Thickness / Drill hole
+  * Hole to Hole Spacing >= 0.3 mm
+* ### Trace Width Calculation
+ * IPC 2221 Standard : https://electronics.stackexchange.com/questions/5403/standard-pcb-trace-widths
+ * 0.254 mm trace width for power
+  * When Routing Power Traces, 
+ * USB 3 = 90 Ohm Differential Impedance +/- 5 Ohm
+ * Be consciious of the return path for signal traces
+
+* 
+* Sources:
+* https://www.pcbway.com/capabilities.html
