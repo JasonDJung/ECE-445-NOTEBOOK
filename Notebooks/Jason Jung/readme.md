@@ -90,7 +90,8 @@
   * When Routing Power Traces, 
  * USB 3 = 90 Ohm Differential Impedance +/- 5 Ohm
  * Be consciious of the return path for signal traces
-
+# 10/16 - 10/17
+* Met with Professor Gruev to go over design, implemented feedback. Created a new revision of PCB Board
 * 
 * Sources:
 * https://www.pcbway.com/capabilities.html
