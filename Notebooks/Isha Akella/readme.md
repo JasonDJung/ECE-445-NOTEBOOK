@@ -21,30 +21,44 @@ We had our first meeting with our TA, Jason, and discussed our project as well a
 In this meeting, we finished the project proposal and found our desired image sensor/microcontroller. We sent out the email requests for the datasheets and quotes.
 
 ## 9/17: Start Design Document
-We began working on the design document. 
+We began working on the design document, specifically the problem, solution, high level requirements, tolerance analysis, and ethics. 
 
 ## 9/21: Second TA Meeting/First meeting with TA and Professor Gruev
-Finalized image sensor with Prof. Gruev and discussed design document, 3D modeling, and PCB design with TA. We continued working on the design document and began working on PCB design.
+Finalized image sensor with Prof. Gruev and discussed design document, 3D modeling, and PCB design with TA. We continued working on the design document and began working on the PCB design.
 
 ## 9/24: PCB Design
 Sourced all required components, but cannot order due to lack of CFOP number. Worked on PCB design after adding all components to KiCAD.
 
-## 9/25:
+## 9/25: Splitting PCB components
+We split up the components for the PCB design in order to speed up the process. Our device has three main components, the MCU, image sensor, and power/USB -- we split up each of the components among the three members of our group to finish by the following week. 
 
 ## 9/28: Wrapping up Design Document
-In this meeting, we finished and submitted all necessary aspects for our design document.
-
-## 9/29: Splitting PCB components
-After finalizing the design document, we split up the components for the PCB design in order to speed up the process. Our device has three main components, the MCU, image sensor, and power/USB -- we split up each of the components among the three members of our group to finish by our next meeting. 
+In this meeting, we finished and submitted all necessary aspects for our design document including preliminary schematics. **INSERT PICTURES**
 
 ## 10/1: Cross checking PCB
 Prior to this meeting, each member finished creating the schematic for their respective component, read all three datasheets, and looked at all other schematics. At this meeting, we cross-checked the schematics and any questions that arose during individual checking.
 
 ## 10/2: Design Review & Consolidating PCB
-We had our official design review with Jason Zhang, David Null, and Professor Fliflet. Afterward, we combined our individual PCB schematics into one schematic and connected our components. 
+We had our official design review with Jason Zhang, David Null, and Professor Fliflet. Afterward, we combined our individual PCB schematics into one schematic and connected our components. **Insert picture** 
 
 ## 10/3: PCB Questions at Office Hours
 Once our PCB was finalized amongst the members of our group, we attended office hours to ask questions that remained after consolidating. 
 
 ## 10/6: PCB Review
-Attended the PCB review to ask more clarifying questions. Began routing our schematic and determined that 2/3 of us would continue routing before our next meeting. 
+Attended the PCB review to ask more clarifying questions. Began routing our schematic and determined that 2/3 of us would continue routing before our next meeting while the third member began looking at code for our development board.
+
+## 10/9: PCB
+Met as a group to finalize the PCB design and components before meeting with the TA/Professor.
+
+## 10/12: TA Meeting
+Met with our TA to discuss PCBWay ordering. Following this meeting, we ordered our development board. 
+
+## 10/16: Professor Gruev
+In this meeting, our team met with Professor Gruev to discuss our PCB design and schematic before submitting a PCBWay order. He offered some suggestions that we began implementing following the meeting and will complete before the next meeting. 
+
+## 10/18: Enclosure
+I began learning Autodesk Fusion 360 in order to begin creating our 3D enclosure design. Aspects of the design will continue to be finalized later, but preliminarily we have a 2x2x7in enclosure with an opening on one end for the image sensor, an opening on the side for the USB connection, and a removable cap. **Insert Pictures**
+
+## 10/19: TA Meeting
+In this meeting
+We have our finalized PCB design that has passed the audit for PCB way. 
