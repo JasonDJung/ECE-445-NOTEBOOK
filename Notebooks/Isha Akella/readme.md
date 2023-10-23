@@ -59,5 +59,8 @@ In this meeting, our team met with Professor Gruev to discuss our PCB design and
 ## 10/18: Enclosure
 I began learning Autodesk Fusion 360 in order to begin creating our 3D enclosure design. Aspects of the design will continue to be finalized later, but preliminarily we have a 2x2x7in enclosure with an opening on one end for the image sensor, an opening on the side for the USB connection, and a removable cap. **Insert Pictures**
 
-## 10/19: Ordering PCB
+## 10/19: PCB Sent to Head TA
 We have our finalized PCB design that has passed the audit for PCBway. In this meeting, we consolidated all required components and emailed them to the head TA, Jason P., to order our PCB through turnkey with PCBWay. Additionally, we started finalizing some design aspects of our enclosure so that I may finish our first iteration in CAD.
+
+## 10/23: 
+We met with the head TA Jason P. as he had some questions regarding our order (which he will submit tomorrow). Additionally, we began experimenting with the development board and I finished one iteration of our enclosure design. **INSERT PICTURES**
