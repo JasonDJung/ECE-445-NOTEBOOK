@@ -60,21 +60,40 @@
 * https://docs.google.com/spreadsheets/u/3/d/153RUJO1VnosQzeARsF-QkoYVccRl2KKlXqfhqvoIaU0/edit#gid=0
 * https://docs.google.com/spreadsheets/d/1pqk_fN6fMIju8Ngkg-_4KTQ6uj0hrlnuv49PCC0ijBk/edit#gid=1992434365
 # 10/02/2023:
-*
+* 10am: Design Review For Cross Checking
+* 3pm - 5pm: Team Meeting to Review Cross Checking Documents and questions
+* All checked each other's schematics and asked questions as appropriately
+* Prepared questions to ask Jason P tomorrow
+   * Clock Buffer
+   * Translators vs LDOs
+   * Which pins to ignore: GND_MIPI, S_ADDR, XRST
+   * OVP vs Zener Diode
+   * ESD Diodes?
 # 10/03/2023:
-*
-* Met with Jason P to go over design questions
+* Met with Jason P to go over design questions (4 - 6pm)
+* Compiled a list of questions to ask Professor Gruev during our weekly meeting
 # 10/05/2023:
-*
+* Geometry of Traces: Including width, length, spacing, differential signals
+ * Use calculator
+* Analog/Digital Grounds
+ * Use Single Ground
+* Connect XRST to imagesensor
+* Keep Differential pairs close together, keep power lines short and fat
+* Capacitors as close as possible to the LDO
 # 10/06/2023:
 * PCB Review sesions 3-5pm
+* 
 # 10/07/2023 > 10/08/2023 :
 * Isha and Jason routed, Amartya looked into post processing
 * Generated BOM
 # 10/09/2023
+* Looked over routes, looked over BOM, Submitted to PCBWay for Audit
 # 10/10/2023
+* First Audit failed, resubmitted after making modifications
 # 10/12/2023
-# 10/12/2023
+* Team meeting with Jason Zhang
+* Went over DRC Constraints, and rerouted
+* Jason started new Revision for PCB
 # 10/14/2023
 * Round 2 of Routing:
 * ## Setting Up Board Constraints for the Board Advanced PCB Assembly:
@@ -91,14 +110,17 @@
  * USB 3 = 90 Ohm Differential Impedance +/- 5 Ohm
  * Be consciious of the return path for signal traces
 # 10/16 - 10/17
-* Met with Professor Gruev to go over design, implemented feedback. Created a new revision of PCB Board
-* 
+* Met with Professor Gruev to go over design, implemented feedback. Finished new revision of PCB Board
 * Sources:
-* https://www.pcbway.com/capabilities.html
-# 10/18:  
+* https://www.pcbway.com/capabilities.html#
+# 10/19 
+* Submitted Email to Jason P to Submited PCBWay Order
+* Development board came in this week, started looking at code that can be prototyped
 # 10/23
 * Met with Jason P to go over PCBWay order and adjust design to account for Manufacturing capabilities
 * Dielectric and PrePeg layers were intiially thought to be 4.5 and 0.1mm when they are 4.29 and 0.11mm respectively in reality.
 * Had to rerout USB 3.1 Traces, but kept MIPI CSI-2 Signals the same.
 * Started Development Board Code Research
-  
+# 10/24
+* Looked into code for Development Board
+* Was able to display video on the development board, but now need to use that on the IDE.
