@@ -95,3 +95,10 @@
 * 
 * Sources:
 * https://www.pcbway.com/capabilities.html
+# 10/18:  
+# 10/23
+* Met with Jason P to go over PCBWay order and adjust design to account for Manufacturing capabilities
+* Dielectric and PrePeg layers were intiially thought to be 4.5 and 0.1mm when they are 4.29 and 0.11mm respectively in reality.
+* Had to rerout USB 3.1 Traces, but kept MIPI CSI-2 Signals the same.
+* Started Development Board Code Research
+  
