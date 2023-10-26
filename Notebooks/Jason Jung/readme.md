@@ -124,3 +124,7 @@
 # 10/24
 * Looked into code for Development Board
 * Was able to display video on the development board, but now need to use that on the IDE.
+# 10/26 Project Emergency
+* Found out today that our lead time to get PCB assembly is up to 30 days. We have started exploring other options through 4PCB and JLCPCB, as well as potentially soldering components on our own
+* This lead time prevents us from getting our PCB until the week of the mock demo.
+* Will order components separately through myECE as a contingency plan.
