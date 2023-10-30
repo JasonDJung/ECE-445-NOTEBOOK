@@ -128,3 +128,8 @@
 * Found out today that our lead time to get PCB assembly is up to 30 days. We have started exploring other options through 4PCB and JLCPCB, as well as potentially soldering components on our own
 * This lead time prevents us from getting our PCB until the week of the mock demo.
 * Will order components separately through myECE as a contingency plan.
+
+# 10/30 : 
+* Got digikey order approved
+* PCBWay Board and Stencil shipped today
+* 
