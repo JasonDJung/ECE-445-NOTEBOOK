@@ -132,4 +132,6 @@
 # 10/30 : 
 * Got digikey order approved
 * PCBWay Board and Stencil shipped today
-* 
+# 11/4/23: 
+# 11/6/23: Finished Soldering
+# 11/7/23: Sent in 3rd PCB Order, added 5.1k 10% PullDown Resistor.
