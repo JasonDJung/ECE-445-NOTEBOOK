@@ -37,6 +37,7 @@ We split up the components for the PCB design in order to speed up the process. 
 ## 9/28: Wrapping up Design Document
 In this meeting, we finished and submitted all necessary aspects for our design document including preliminary schematics. The image in Figure 2 is the portion of the schematic that I was responsible for which included the MCU and all related components such as the clock and regulators.
 <img width="560" alt="Screen Shot 2023-11-20 at 4 12 02 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/788970df-6ec0-4aeb-b44c-72d3bf00939f">
+
 Figure 2
 
 ## 10/1: Cross checking PCB
@@ -45,8 +46,11 @@ Prior to this meeting, each member finished creating the schematic for their res
 ## 10/2: Design Review & Consolidating PCB
 We had our official design review with Jason Zhang, David Null, and Professor Fliflet. Afterward, we combined our individual PCB schematics into one schematic and connected our components. Attached in Figure 3 is the MCU, image sensor, and high-level USB-C, regulator, and oscillator information. Figure 4 contains the full USB-C schematic.
 <img width="1101" alt="Screen Shot 2023-11-20 at 4 14 22 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/d631152b-67d8-43bc-8952-a683acaf4560">
+
 Figure 3
+
 <img width="716" alt="Screen Shot 2023-11-20 at 4 16 11 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/bd808704-7cf8-4fd9-a47d-2c5a5529f206">
+
 Figure 4
 
 ## 10/3: PCB Questions at Office Hours
@@ -58,6 +62,7 @@ Attended the PCB review to ask more clarifying questions. Began routing our sche
 ## 10/9: PCB
 Met as a group to finalize the PCB design and components before meeting with the TA/Professor. 
 <img width="716" alt="Screen Shot 2023-11-20 at 4 19 03 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/49f03641-0299-45b8-bbbf-f76ff3bf0ac4">
+
 Figure 5: Original PCB Design 
 
 ## 10/12: TA Meeting
@@ -67,13 +72,29 @@ Met with our TA to discuss PCBWay ordering. Following this meeting, we ordered o
 In this meeting, our team met with Professor Gruev to discuss our PCB design and schematic before submitting a PCBWay order. He offered some suggestions that we began implementing following the meeting and will complete before the next meeting. 
 
 ## 10/18: Enclosure
-I began learning Autodesk Fusion 360 in order to begin creating our 3D enclosure design. Aspects of the design will continue to be finalized later, but preliminarily we have a 2x2x7in enclosure with an opening on one end for the image sensor, an opening on the side for the USB connection, and a removable cap. **Insert Pictures**
+I began learning Autodesk Fusion 360 to begin creating our 3D enclosure design. Aspects of the design will continue to be finalized later, but preliminarily we have a 2x2x7in enclosure with an opening on one end for the image sensor, an opening on the side for the USB connection, and a removable cap.
+
+<img width="538" alt="Screen Shot 2023-11-20 at 4 21 16 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/96626aee-0cd4-4077-92ec-5b88186f1ebc">
+
+Figure 6: Preliminary enclosure design showcasing opening for image sensor and USB connection
 
 ## 10/19: PCB Sent to Head TA
-We have our finalized PCB design that has passed the audit for PCBway. In this meeting, we consolidated all required components and emailed them to the head TA, Jason P., to order our PCB through turnkey with PCBWay. Additionally, we started finalizing some design aspects of our enclosure so that I may finish our first iteration in CAD.
+We have our finalized PCB design that has passed the audit for PCBway. In this meeting, we consolidated all required components and emailed them to the head TA, Jason P., to order our PCB through turnkey with PCBWay. Additionally, we changed our original enclosure idea.
+<img width="846" alt="Screen Shot 2023-11-20 at 4 24 46 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/d664bba9-14d6-44fc-813a-ef6c7b1249ed">
+
+Figure 7: Final PCB layout design
+![IMG_9A38F8D52298-1](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/f15e4a5c-36a9-4658-ad0c-336c8c54584f)
+
+Figure 8: New enclosure idea
 
 ## 10/23: 
-We met with the head TA Jason P. as he had some questions regarding our order (which he will submit tomorrow). Additionally, we began experimenting with the development board and I finished one iteration of our enclosure design. **INSERT PICTURES**
+We met with the head TA Jason P. as he had some questions regarding our order (which he will submit tomorrow). Additionally, we began experimenting with the development board and I finished one iteration of our enclosure design. 
+<img width="337" alt="Screen Shot 2023-11-20 at 4 27 43 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/b318cf81-5e33-4cce-bb3a-9c5e121ea75f">
+
+Figure 9: Enclosure Base
+<img width="1018" alt="Screen Shot 2023-11-20 at 4 28 05 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/e07e1cce-f6a7-4eb1-a3cc-3b9d07d9bfc3">
+
+Figure 10: Enclosure Lid
 
 ## 10/26:
 I finalized the iteration of the enclosure that we decided to print. Additionally, we were informed that the lead time for our PCB if we did turnkey assembly with PCBWay was around 28-30 days which meant we would not get our PCB until Thanksgiving break. We started exploring other options to get our PCB assembled, but in the end, we decided to just order our board, unassembled, and stencil from PCBWay and all our components through myECE to solder our board ourselves. 
@@ -83,9 +104,15 @@ Today we had our weekly meeting with our TA. Following the meeting, our digikey 
 
 ## 11/3: First attempt at soldering
 With the help of Jason P, we soldered the frontside of our board using the reflow oven. The overall process took around 5 hours. Afterward, we went to Siebel Center for Design to print the first iteration of our enclosure. 
+![IMG_3550](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/ca9c736b-9eb8-49c3-a269-a2fd27c2cf13)
+
+Figure 11: Soldered Board
 
 ## 11/4:
 Today I went back to SCD to pick up our 3D-printed enclosure. After sanding the components, I realized that the snap-fit components were slightly misaligned, so I adjusted the CAD file, reprinted the enclosure lid, waited for it to finish printing, and then sanded the component. The snap fits were properly aligned and the components did snap into place. 
+![IMG_4A3F84D2A7A4-1](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/5316966f-37b4-4731-bcff-1a92ad4dee2f)
+
+Figure 12: 3D Printed Enclosure
 
 ## 11/5: 
 Today, Amartya and I looked through the development board code to see what needed to be changed to adjust for our image sensor, the AR0330, compared to the one already on the dev board, the OV5640. Jason attempted soldering the backside of the PCB but the irons not in use weren't small enough. 
@@ -95,6 +122,10 @@ We were able to successfully solder the backside of the board. When we plugged i
 
 ## 11/8:
 We discovered that one of the problems with our board was with the clock. We removed all the 1.65 MOhm resistors on the clock and added pull-up resistors from an external breadboard. After doing both of these, we were able to get a clock signal on both the input and output pins, however, it was very noisy. We plugged it into the lab computers and got a power surge message.
+
+Figure 13: Clock Buffer Input
+
+Figure 14: Power Surge Message
 
 ## 11/9:
 We had our TA meeting with Jazon Z and were joined by Zhongmin Z as well. Zhongmin gave our group a power meter to use for a few weeks so we can see if our board is drawing power and how much. At this point, we have two options that we can pursue: try and get our PCB to work or move forward with testing the dev board. For now, we are working on our board. We spent the rest of today resoldering a new board but the USB-C receptacle came off when we plugged it into the computer. Supplying external power, we also realized that the voltage regulator on the backside of the board was not working. While Jason and I were resoldering the board, Amartya was working on the dev board code. We can now make our own makefile and successfully upload it to the dev board. 
