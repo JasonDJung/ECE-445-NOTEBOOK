@@ -14,7 +14,8 @@ Additionally, we started and finished the team contract due 9/14.
 We received feedback from Prof. Gruev related to the MCUs we found and used the feedback to narrow down and pick an MCU for the project. Worked on the deliverables necessary for our first TA meeting on 9/12 which included a block diagram [Figure 1], three high-level requirements, and one subsystem requirement.  
 Finally, we began working on our project proposal which is due on 9/14.
 <img width="572" alt="Screen Shot 2023-11-20 at 4 01 14 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/46022132-94df-47a0-b079-998e5052213b">
-[Figure 1]
+
+Figure 1
 ## 9/12: First TA Meeting
 We had our first meeting with our TA, Jason, and discussed our project as well as our concerns. Afterward, we researched microcontrollers and development boards to find a dev board that was USB 3.0 and MIPI 2.0 compatible. 
 
@@ -22,7 +23,7 @@ We had our first meeting with our TA, Jason, and discussed our project as well a
 In this meeting, we finished the project proposal and found our desired image sensor/microcontroller. We sent out the email requests for the datasheets and quotes.
 
 ## 9/17: Start Design Document
-We began working on the design document, specifically the problem, solution, high level requirements, tolerance analysis, and ethics. 
+We began working on the design document, specifically the problem, solution, high-level requirements, tolerance analysis, and ethics. 
 
 ## 9/21: Second TA Meeting/First meeting with TA and Professor Gruev
 Finalized image sensor with Prof. Gruev and discussed design document, 3D modeling, and PCB design with TA. We continued working on the design document and began working on the PCB design.
@@ -34,13 +35,19 @@ Sourced all required components, but cannot order due to lack of CFOP number. Wo
 We split up the components for the PCB design in order to speed up the process. Our device has three main components, the MCU, image sensor, and power/USB -- we split up each of the components among the three members of our group to finish by the following week. 
 
 ## 9/28: Wrapping up Design Document
-In this meeting, we finished and submitted all necessary aspects for our design document including preliminary schematics. **INSERT PICTURES**
+In this meeting, we finished and submitted all necessary aspects for our design document including preliminary schematics. The image in Figure 2 is the portion of the schematic that I was responsible for which included the MCU and all related components such as the clock and regulators.
+<img width="560" alt="Screen Shot 2023-11-20 at 4 12 02 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/788970df-6ec0-4aeb-b44c-72d3bf00939f">
+Figure 2
 
 ## 10/1: Cross checking PCB
 Prior to this meeting, each member finished creating the schematic for their respective component, read all three datasheets, and looked at all other schematics. At this meeting, we cross-checked the schematics and any questions that arose during individual checking.
 
 ## 10/2: Design Review & Consolidating PCB
-We had our official design review with Jason Zhang, David Null, and Professor Fliflet. Afterward, we combined our individual PCB schematics into one schematic and connected our components. **Insert picture** 
+We had our official design review with Jason Zhang, David Null, and Professor Fliflet. Afterward, we combined our individual PCB schematics into one schematic and connected our components. Attached in Figure 3 is the MCU, image sensor, and high-level USB-C, regulator, and oscillator information. Figure 4 contains the full USB-C schematic.
+<img width="1101" alt="Screen Shot 2023-11-20 at 4 14 22 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/d631152b-67d8-43bc-8952-a683acaf4560">
+Figure 3
+<img width="716" alt="Screen Shot 2023-11-20 at 4 16 11 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/bd808704-7cf8-4fd9-a47d-2c5a5529f206">
+Figure 4
 
 ## 10/3: PCB Questions at Office Hours
 Once our PCB was finalized amongst the members of our group, we attended office hours to ask questions that remained after consolidating. 
@@ -49,7 +56,9 @@ Once our PCB was finalized amongst the members of our group, we attended office 
 Attended the PCB review to ask more clarifying questions. Began routing our schematic and determined that 2/3 of us would continue routing before our next meeting while the third member began looking at code for our development board.
 
 ## 10/9: PCB
-Met as a group to finalize the PCB design and components before meeting with the TA/Professor.
+Met as a group to finalize the PCB design and components before meeting with the TA/Professor. 
+<img width="716" alt="Screen Shot 2023-11-20 at 4 19 03 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/49f03641-0299-45b8-bbbf-f76ff3bf0ac4">
+Figure 5: Original PCB Design 
 
 ## 10/12: TA Meeting
 Met with our TA to discuss PCBWay ordering. Following this meeting, we ordered our development board. 
