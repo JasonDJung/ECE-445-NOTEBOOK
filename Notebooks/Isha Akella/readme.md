@@ -11,10 +11,10 @@ We received confirmation from Prof. Gruev that the image sensor we chose was per
 Additionally, we started and finished the team contract due 9/14.
 
 ## 9/11: Component Finalization & Project Proposal
-We received feedback from Prof. Gruev related to the MCUs we found and used the feedback to narrow down and pick an MCU for the project. Worked on the deliverables necessary for our first TA meeting on 9/12 which included a [block diagram](https://keep.google.com/u/1/#NOTE/1Vw31qFGlAr-CA18edX1kXamcl7HZGzVYBTEl_JOEE6JA1ADldyCIwDYG-8dt6xKz), three high-level requirements, and one subsystem requirement.  
+We received feedback from Prof. Gruev related to the MCUs we found and used the feedback to narrow down and pick an MCU for the project. Worked on the deliverables necessary for our first TA meeting on 9/12 which included a block diagram [Figure 1], three high-level requirements, and one subsystem requirement.  
 Finally, we began working on our project proposal which is due on 9/14.
 <img width="572" alt="Screen Shot 2023-11-20 at 4 01 14 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/46022132-94df-47a0-b079-998e5052213b">
-
+[Figure 1]
 ## 9/12: First TA Meeting
 We had our first meeting with our TA, Jason, and discussed our project as well as our concerns. Afterward, we researched microcontrollers and development boards to find a dev board that was USB 3.0 and MIPI 2.0 compatible. 
 
