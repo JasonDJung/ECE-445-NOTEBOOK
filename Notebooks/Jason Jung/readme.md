@@ -160,19 +160,22 @@
 * After meeting with our TA and one of his peers, we were advised that there was probably a short on the board.
 * Used a power meter and a breakout board to debug our circuit.
 # 11/10/23:
-* Ripped apart a USB C cable, measured Power to Ground impedance using a multimeter, verified that a short existed.
-* Removed every component on the board, one by one, using a multimeter to check the impedance to see if it changed.
 *  Determined that it was the back LDO that was the issue, removed this and things wroked out.
 # 11/11/23:
-*
-# 11/12/23:
-* 
-# 11/14/23:
-* 
+* Took measurements on the output of the clock buffer, noticed a good amount of noise 
+# 11/13/23:
+* Met with Jason P, who helped us verify where the short was on the board
+* Ripped apart a USB C cable, measured Power to Ground impedance using a multimeter, verified that a short existed.
+* Removed every component on the board, one by one, using a multimeter to check the impedance to see if it changed.
+* USB C Connector kept falling off, soldered it back on aggressively
 # 11/15/23:
 * Soldered pull up resistors on Vcc on the clock buffer
+* Kept debugging circuit: identifed the following issues:
+* Clock is noisy, not identified correctly on the device.
+* 
 # 11/16/23:
-* Realized that our PCB was on the wrong bootmode.
+* Realized that our PCB was on the wrong bootmode
+* Are able to download to the program., still not recognized as a camera.
 * Met with Zhongmin, took us down to the Biosensors Lab to test our development board's multispectral capabilities. Development board does not work
 # 11/17/23:
 * Met with Professor Gruev, he helped us take off the IR lens on our development board. Development board can now see in IR. Tested with IR light on iPhone.
