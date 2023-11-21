@@ -97,7 +97,7 @@ Figure 9: Enclosure Base
 Figure 10: Enclosure Lid
 
 ## 10/26:
-I finalized the iteration of the enclosure that we decided to print. Additionally, we were informed that the lead time for our PCB if we did turnkey assembly with PCBWay was around 28-30 days which meant we would not get our PCB until Thanksgiving break. We started exploring other options to get our PCB assembled, but in the end, we decided to just order our board, unassembled, and stencil from PCBWay and all our components through myECE to solder our board ourselves. 
+I finalized the iteration of the enclosure that we decided to print. Additionally, we were informed that the lead time for our PCB if we did turnkey assembly with PCBWay was around 28-30 days which meant we would not get our PCB until Thanksgiving break. We started exploring other options to get our PCB assembled, but in the end, we decided to just order our board, unassembled, and stencil from PCBWay and all our components through myECE to solder our board ourselves.
 
 ## 11/2 
 Today we had our weekly meeting with our TA. Following the meeting, our digikey parts and board arrived. We didn't have enough time today to solder our board, however, we set up a meeting with Jason P for tomorrow.
@@ -106,7 +106,7 @@ Today we had our weekly meeting with our TA. Following the meeting, our digikey 
 With the help of Jason P, we soldered the frontside of our board using the reflow oven. The overall process took around 5 hours. Afterward, we went to Siebel Center for Design to print the first iteration of our enclosure. 
 ![IMG_3550](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/ca9c736b-9eb8-49c3-a269-a2fd27c2cf13)
 
-Figure 11: Soldered Board
+Figure 11: Soldered Board Frontside
 
 ## 11/4:
 Today I went back to SCD to pick up our 3D-printed enclosure. After sanding the components, I realized that the snap-fit components were slightly misaligned, so I adjusted the CAD file, reprinted the enclosure lid, waited for it to finish printing, and then sanded the component. The snap fits were properly aligned and the components did snap into place. 
@@ -122,8 +122,10 @@ We were able to successfully solder the backside of the board. When we plugged i
 
 ## 11/8:
 We discovered that one of the problems with our board was with the clock. We removed all the 1.65 MOhm resistors on the clock and added pull-up resistors from an external breadboard. After doing both of these, we were able to get a clock signal on both the input and output pins, however, it was very noisy. We plugged it into the lab computers and got a power surge message.
+![initial_input](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/2bf5af2f-f4e9-4d59-8ce2-df92e2acb4bc)
 
 Figure 13: Clock Buffer Input
+![powersurge](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/30beddbd-9ff6-44e3-96ba-5973608a9b56)
 
 Figure 14: Power Surge Message
 
@@ -135,21 +137,62 @@ Today we tried 3 different things to reattach the USB-C receptacle but none of t
 
 ## 11/11:
 Today, we tried applying solder paste to only one row of the usb pins, applied heat from the bottom of the board using the heat gun, and then used flux on the top row. This method seemed to work initially as the device drew power for short amount of time. Additionally, we realized that the USB only works in one direction which implied that one of the two usb pin rows was not properly soldered on. When plugging the device into Amartya's computer, the device was recognized as the same device as the development board since they use the same microcontroller. 
+![devrecog](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/042694eb-c31c-44af-bb1b-36aa959d41d1)
+
+Figure 15: PCB recognized as same device as dev board
 
 ## 11/13:
 Whenever we plugged our board into a computer, the board would heat up very quickly and we kept getting power surge messages, this led us to believe there was a short in the board. Using a USB-C cable that we had cut previously to expose the wires, we found that the short circuit impedance was around 16 ohms which was similar to what our board was reading; this confirmed that there was a short in the board. Jason and I removed components one by one and tested the impedance until we found all the components causing the short. It was primarily the voltage regulator on the backside of the board, one voltage regulator on the frontside (U5), as well as the USB mux. We began placing the components back onto the board using the heat gun and confirming that the impedance was still around 80K Ohms after each one. We didn't finish placing the components back on today. During that time, Amartya was able to get the dev board to work on MacOS and not just on Windows. 
 
 ## 11/14:
 Today we placed the remaining components back onto the board. After we finished, the short was gone, we no longer got the power surge message on the computers, and all the LDOs were functioning. Unfortunately, the clock was still noisy and the lab computer was still unable to detect the device. 
+![currentdraw](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/d69dcc58-7d70-450c-9eaa-183d996c9244)
+
+Figure 16: Current draw of functioning board
+
+![initial_output](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/b22f1cf4-386c-4fd4-b21c-3402aa8599b3)
+
+Figure 17: Clock output
 
 ## 11/15
 We assumed that one reason the computer did not detect our device was due to the clock, so we experimented with different resistor values for the pull-up. Originally, we used 1k, however, we found that 100 ohms, 50 ohms, and 27-ohm resistors made the output waveform of the clock buffer look similar to the input waveform. We decided to solder the 27-ohm resistors from the output pins of the clock buffer to the output pin of a 1.8 V regulator to eliminate any noise/capacitance from the breadboard. Doing so stabilized the clock, but still did not allow the lab computer to detect the device. 
 
+<img width="170" alt="Screen Shot 2023-11-20 at 7 39 26 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/d4ebe858-dc08-4b23-8316-66489ae2d8ed">
+
+Figure 18: Soldered on resistors
+
+![newinput](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/b347d358-080e-4817-b03d-e3dc5c35b6d2)
+
+Figure 19: Updated Clock Input
+
+![newoutput](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/763e2614-8bb8-4966-9d7f-96ee314f3704)
+
+Figure 20: Updated Clock Output
+
 ## 11/16: Testing Dev Board + Mock Demo + Breakthrough 
 Today, we went into the basement of ECEB with Zhongmin to try and test the dev board's UV/NIR capabilities. Unfortunately, the dev board came with a filter already installed which prevented proper testing.
 Unsure of what may be preventing the computer from detecting the device we poured through datasheets again. We realized that the clock buffer voltage was not the same as the VDDIO1 and CVDDQ voltages even though it was supposed to be according to the datasheet; so we cut the trace of the 3.3V regulator to the clock buffer and soldered on another resistor to make the input voltage 1.8V.
+
+<img width="950" alt="Screen Shot 2023-11-20 at 7 44 20 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/3fe56ff6-07c3-4964-9c17-97c1dc02622c">
+
+Figure 21: Portion of datasheet describing same voltage across buffer and VDDIO1
+
+<img width="344" alt="Screen Shot 2023-11-20 at 7 32 07 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/a6eaf7d7-5408-4648-9606-356e073dd635">
+
+Figure 22: Cut Trace from 3.3V Regulator
+
+Figure 23: 
+
 Following this, we had our mock demo in which Jason Z told us that if we could test NIR and UV with the dev board, we would be able to get the majority of the functionality points. 
-After the mock demo, we continued to look through the data sheets and found a major issue with our board. The MCU we are using has 4 different boot mode options that are defined by 3 pins: PMODE[2:0]. To get the MCU to boot on USB, the pins needed to be set as F11, however, after crosschecking with our layout we realized ours were routed as 11F which corresponded with none of the boot options. Initially, we thought we would have to solder an entirely new board while bridging the P[1] and P[0] pins and cutting a trace to leave P[2] floating. The trace we needed to cut was on the backside of the board and after looking more at the datasheet, we decided to cut the trace on our current board which would set the boot mode to F1F which was I^2C, on failure USB enabled. Since we hadn't set any of the I^2C pins other than those necessary for MIPI, we were hopeful that USB would default and allow information to reach the MCU. After cutting the trace and plugging the device in, the computer recognized it and we were able to program it! With the dev board, after programming the device, it unenumerates as a USB device and re-enumerates as a camera; our PCB was unenumerated as a USB device but did not re-enumerate as a camera. 
+After the mock demo, we continued to look through the data sheets and found a major issue with our board. The MCU we are using has 4 different boot mode options that are defined by 3 pins: PMODE[2:0]. To get the MCU to boot on USB, the pins needed to be set as F11, however, after crosschecking with our layout we realized ours were routed as 11F which corresponded with none of the boot options. Initially, we thought we would have to solder an entirely new board while bridging the PMODE[1] and PMODE[0] pins and cutting a trace to leave PMODE[2] floating. The trace we needed to cut was on the backside of the board and after looking more at the datasheet, we decided to cut the trace on our current board which would set the boot mode to F1F which was I^2C, on failure USB enabled. Since we hadn't set any of the I^2C pins other than those necessary for MIPI, we were hopeful that USB would default and allow information to reach the MCU. After cutting the trace and plugging the device in, the computer recognized it and we were able to program it! With the dev board, after programming the device, it unenumerates as a USB device and re-enumerates as a camera; our PCB was unenumerated as a USB device but did not re-enumerate as a camera. 
+
+<img width="961" alt="Screen Shot 2023-11-20 at 7 45 13 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/0ba04261-0a4a-481e-9ebc-e86e09932dbf">
+
+Figure 23: Boot Options
+
+![cuttrace](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/49ca6ee4-92ac-40ab-8145-88a56331e7fb)
+
+Figure 24: PMODE[2] Cut Trace
 
 ## 11/17: Meeting with Professor Gruev
 Today, we had a meeting with Professor Gruev to provide him with updates and potentially reassess the goals for the project. After speaking with him, we decided to try testing the dev board again. The filter already on the dev board was soldered on, so Professor Gruev removed it which allowed us to test the board using his filters'. After confirming with one filter that we could test, Professor Gruev told us to 3D print an encolure for the dev board that had an opening solely for the filters to be screwed in so that we could test without any external light coming in. The enclosure needs to sit 17.526mm from the top of the lens and have threads for the filters to screw in. Seeing as how we are all leaving for Thanksgiving break, I will create the CAD design over break, 3D print/adjust it next weekend, and resume dev board testing on the Monday we return from break. 
