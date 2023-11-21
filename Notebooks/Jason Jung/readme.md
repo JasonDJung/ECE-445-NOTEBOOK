@@ -128,10 +128,51 @@
 * Found out today that our lead time to get PCB assembly is up to 30 days. We have started exploring other options through 4PCB and JLCPCB, as well as potentially soldering components on our own
 * This lead time prevents us from getting our PCB until the week of the mock demo.
 * Will order components separately through myECE as a contingency plan.
-
 # 10/30 : 
 * Got digikey order approved
 * PCBWay Board and Stencil shipped today
-# 11/4/23: 
-# 11/6/23: Finished Soldering
-# 11/7/23: Sent in 3rd PCB Order, added 5.1k 10% PullDown Resistor.
+# 11/3/23: Finished Soldering PCB Board:
+
+### Procedure for Board Assembly (~4 hours):
+* Get PCB and PCB Stencil, and align the stencil along the board so that the pads are only showing. Tape down the board to the stencil without disturbing this alignment
+* Place PCB and Stencil on the table, and grab boards of the same thickness (Extra Square PCBs are fine) to stabilize the PCB in place.
+* Grab a stick and press down on top of the stencil to keep it flesh against the PCB. Not doing this can result in solder paste smearing underneath the pad.
+* Using solderpaste that is lukewarm, get a metal scraper and smear it evenly across the stencil, making sure to fill in for every pad exposed.
+* If not down successfully, you will have to repeat the previous steps
+* Carefully remove the stencil from the PCB, and place the PCB in the fridge while you get your components ready for placement on the PCB
+* Using tweezers, place components on each of their respective PADs on the PCB. Using a microscope is helpful in this case.
+* Bake in the reflow oven after doing this according to your solder paste's specifications.
+
+# 11/4/23:
+* There were issues with the clock in our PCB, resistors that were in series had to be removed, and the output of our clock buffer required pull up resistors.
+* Our voltage regulators were also not all working, they needed to be resoldered and some parts needed to be removed.
+* After working on removing the resistors, we decided that it was best to start again since our board started to get damaged.
+
+# 11/6/23: Soldered 2nd PCB Board
+* Issues with our clock were fixed, but then we realized that we were not getting voltage on our board after plugging it in.
+* Also certain parts of the board were getting hot.
+* Soldered pull up resistors to the board
+# 11/8/23: 
+* Resoldered the mux
+* Worked on firmware
+* USB C connector kept falling off.
+# 11/9/23:
+* After meeting with our TA and one of his peers, we were advised that there was probably a short on the board.
+* Used a power meter and a breakout board to debug our circuit.
+# 11/10/23:
+* Ripped apart a USB C cable, measured Power to Ground impedance using a multimeter, verified that a short existed.
+* Removed every component on the board, one by one, using a multimeter to check the impedance to see if it changed.
+*  Determined that it was the back LDO that was the issue, removed this and things wroked out.
+# 11/11/23:
+*
+# 11/12/23:
+* 
+# 11/14/23:
+* 
+# 11/15/23:
+* Soldered pull up resistors on Vcc on the clock buffer
+# 11/16/23:
+* Realized that our PCB was on the wrong bootmode.
+* Met with Zhongmin, took us down to the Biosensors Lab to test our development board's multispectral capabilities. Development board does not work
+# 11/17/23:
+* Met with Professor Gruev, he helped us take off the IR lens on our development board. Development board can now see in IR. Tested with IR light on iPhone.
