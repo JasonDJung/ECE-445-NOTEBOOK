@@ -31,6 +31,7 @@
 * Order Spools, Bring own filament and design, Flex cables specifically meant for PCBs
 * Autodesk Cad for 3d Enclosure CAD> Go to Jason’s Office Hours
 * DRC: Design Rule Check , run this KiCAD when designing PCB
+  
 ### Team Meeting after 
 * Started Design Document
 # 9/24/2023 Team Meeting
@@ -86,6 +87,8 @@
 # 10/07/2023 > 10/08/2023 :
 * Isha and Jason routed, Amartya looked into post processing
 * Generated BOM
+  <img width="396" alt="Screenshot 2023-12-01 at 3 31 27 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/c99818ac-3d57-455f-884b-203617f6229c">
+
 # 10/09/2023
 * Looked over routes, looked over BOM, Submitted to PCBWay for Audit
 # 10/10/2023
@@ -111,6 +114,9 @@
  * Be consciious of the return path for signal traces
 # 10/16 - 10/17
 * Met with Professor Gruev to go over design, implemented feedback. Finished new revision of PCB Board
+* <img width="275" alt="Screenshot 2023-12-01 at 3 32 22 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1d88eeb5-db1f-4eed-a9f2-c6e7519a14c9">
+<img width="579" alt="Screenshot 2023-12-01 at 3 33 08 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1f0a5112-6ed6-4ecd-b684-0fa4bd10d9ae">
+
 * Sources:
 * https://www.pcbway.com/capabilities.html#
 # 10/19 
@@ -132,6 +138,7 @@
 * Got digikey order approved
 * PCBWay Board and Stencil shipped today
 # 11/3/23: Finished Soldering PCB Board:
+<img width="335" alt="Screenshot 2023-12-01 at 3 33 29 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/3aebd50f-255c-4b24-9c1c-41275c259d0f">
 
 ### Procedure for Board Assembly (~4 hours):
 * Get PCB and PCB Stencil, and align the stencil along the board so that the pads are only showing. Tape down the board to the stencil without disturbing this alignment
@@ -152,6 +159,8 @@
 * Issues with our clock were fixed, but then we realized that we were not getting voltage on our board after plugging it in.
 * Also certain parts of the board were getting hot.
 * Soldered pull up resistors to the board
+* <img width="213" alt="Screenshot 2023-12-01 at 3 34 09 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/0e78b294-316a-4d49-b674-11e3f1d5c5c8">
+
 # 11/8/23: 
 * Resoldered the mux
 * Worked on firmware
@@ -159,6 +168,8 @@
 # 11/9/23:
 * After meeting with our TA and one of his peers, we were advised that there was probably a short on the board.
 * Used a power meter and a breakout board to debug our circuit.
+* <img width="370" alt="Screenshot 2023-12-01 at 3 34 34 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/4de7065c-d674-433e-a09d-025fa8a820fa">
+
 # 11/10/23:
 *  Determined that it was the back LDO that was the issue, removed this and things wroked out.
 # 11/11/23:
