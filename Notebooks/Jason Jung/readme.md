@@ -203,7 +203,8 @@ https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 
 # 11/24/23:
 * Ran USB 2.0 Firmware on the board, were able to enumerate a pattern directly from memory:
-<img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f5bf8966-296f-4350-b8cd-9f2a20be9859">
+* <img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f5bf8966-296f-4350-b8cd-9f2a20be9859">
+
 # 11/25:
 * Isha designed CAD enclosure for development board so that it can fit a C Mount lense
 * <img width="696" alt="Screenshot 2023-12-05 at 5 29 28 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/7ba88ddd-0a76-447c-90f2-cf02b1bdce21">
