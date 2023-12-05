@@ -1,11 +1,11 @@
-# 9/11/2023 Group Meeting
+<img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/4839fb33-0443-4246-8681-a1218693baa1"># 9/11/2023 Group Meeting
 * Prepared for TA meeting, proposal rough draft, created a table for potential MCUs to choose from.
 
 # 9/12/2023 Jason Zhang (TA) Meeting
 
 # 9/14/2023 Meeting #2 with Professor Gruev and Jason 
 
-* We can compromise a tradeoff if we cna’t do everything, getting camera components in, may compromise some efficiency 
+* We can compromise a tradeoff if we can’t do everything, getting camera components in, may compromise some efficiency 
 * Emphasis on PCB design, simple MCU, image sensor, find code that does that job for you before getting MCU, make sure layout is
 * Image Sensor : any camera will have some UV and NIR sensitivity . over 1 MP camera,
 * Barebone bumps, ball bonding chips suck and require high precision
@@ -64,6 +64,17 @@
 * 10am: Design Review For Cross Checking
 * 3pm - 5pm: Team Meeting to Review Cross Checking Documents and questions
 * All checked each other's schematics and asked questions as appropriately
+* Jason (USB-C Schematic)<img width="524" alt="Screenshot 2023-12-05 at 5 00 53 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f0950ba9-e4a2-47ab-93b6-439e89ec0256">
+Voltage Regulators:
+<img width="617" alt="Screenshot 2023-12-05 at 5 01 54 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/6f91dd3a-8452-4d8d-b910-99985ea0fe60">
+Clock Oscillator:
+<img width="376" alt="Screenshot 2023-12-05 at 5 03 54 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/bc3d28ef-4e9e-44d6-887c-f0f82269b97b">
+
+* Isha (MCU Schematic)<img width="283" alt="Screenshot 2023-12-05 at 5 00 40 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/8e959c02-b8bd-4f23-ba7c-39754bbfbe84">
+
+* Amartya (Imager Sensor)
+* <img width="382" alt="Screenshot 2023-12-05 at 5 00 27 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/b636e418-1d51-4d36-9546-18dc04958b68">
+
 * Prepared questions to ask Jason P tomorrow
    * Clock Buffer
    * Translators vs LDOs
@@ -75,7 +86,9 @@
 * Compiled a list of questions to ask Professor Gruev during our weekly meeting
 # 10/05/2023:
 * Geometry of Traces: Including width, length, spacing, differential signals
- * Use calculator
+ * Use calculator IPC 2141:
+ * <img width="780" alt="Screenshot 2023-12-05 at 5 05 08 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/bc42aae3-b25e-4488-9421-5e582e6fb3b9">
+ * https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-pcb-trace-impedance
 * Analog/Digital Grounds
  * Use Single Ground
 * Connect XRST to imagesensor
@@ -83,12 +96,11 @@
 * Capacitors as close as possible to the LDO
 # 10/06/2023:
 * PCB Review sesions 3-5pm
-* 
+* Learned about trace geometry and board stackup
 # 10/07/2023 > 10/08/2023 :
 * Isha and Jason routed, Amartya looked into post processing
 * Generated BOM
   <img width="396" alt="Screenshot 2023-12-01 at 3 31 27 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/c99818ac-3d57-455f-884b-203617f6229c">
-
 # 10/09/2023
 * Looked over routes, looked over BOM, Submitted to PCBWay for Audit
 # 10/10/2023
@@ -107,16 +119,15 @@
   * Aspect Ratio = Board Thickness / Drill hole
   * Hole to Hole Spacing >= 0.3 mm
 * ### Trace Width Calculation
- * IPC 2221 Standard : https://electronics.stackexchange.com/questions/5403/standard-pcb-trace-widths
+* Following the standard above, the following widths were calculated
  * 0.254 mm trace width for power
   * When Routing Power Traces, 
  * USB 3 = 90 Ohm Differential Impedance +/- 5 Ohm
- * Be consciious of the return path for signal traces
+ * Be conscious of the return path for signal traces
 # 10/16 - 10/17
 * Met with Professor Gruev to go over design, implemented feedback. Finished new revision of PCB Board
 * <img width="275" alt="Screenshot 2023-12-01 at 3 32 22 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1d88eeb5-db1f-4eed-a9f2-c6e7519a14c9">
 <img width="579" alt="Screenshot 2023-12-01 at 3 33 08 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1f0a5112-6ed6-4ecd-b684-0fa4bd10d9ae">
-
 * Sources:
 * https://www.pcbway.com/capabilities.html#
 # 10/19 
@@ -181,8 +192,8 @@
 * USB C Connector kept falling off, soldered it back on aggressively
 # 11/15/23:
 * Soldered pull up resistors on Vcc on the clock buffer
-* Kept debugging circuit: identifed the following issues:
-* Clock is noisy, not identified correctly on the device.
+* Clock is noisy, not identified correctly on the device:
+* 
 * 
 # 11/16/23:
 * Realized that our PCB was on the wrong bootmode
@@ -190,3 +201,10 @@
 * Met with Zhongmin, took us down to the Biosensors Lab to test our development board's multispectral capabilities. Development board does not work
 # 11/17/23:
 * Met with Professor Gruev, he helped us take off the IR lens on our development board. Development board can now see in IR. Tested with IR light on iPhone.
+
+# 11/24/23:
+* Ran USB 2.0 Firmware on the board, were able to enumerate a pattern directly from memory:
+<img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f5bf8966-296f-4350-b8cd-9f2a20be9859">
+# 11/28/23:
+* Tested the development board code in the Biosensor's Lab
+*  
