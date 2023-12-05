@@ -1,6 +1,3 @@
-<img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/4839fb33-0443-4246-8681-a1218693baa1"># 9/11/2023 Group Meeting
-* Prepared for TA meeting, proposal rough draft, created a table for potential MCUs to choose from.
-
 # 9/12/2023 Jason Zhang (TA) Meeting
 
 # 9/14/2023 Meeting #2 with Professor Gruev and Jason 
@@ -137,7 +134,10 @@ Clock Oscillator:
 * Met with Jason P to go over PCBWay order and adjust design to account for Manufacturing capabilities
 * Dielectric and PrePeg layers were intiially thought to be 4.5 and 0.1mm when they are 4.29 and 0.11mm respectively in reality.
 * Had to rerout USB 3.1 Traces, but kept MIPI CSI-2 Signals the same.
-* Started Development Board Code Research
+* Started Development Board Code Research because it came in:
+<img width="653" alt="Screenshot 2023-12-05 at 5 22 06 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/e69d884a-d206-4622-b39b-646085580c1a">
+* We had the OV5640 Camera board attachment
+https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 # 10/24
 * Looked into code for Development Board
 * Was able to display video on the development board, but now need to use that on the IDE.
@@ -165,6 +165,7 @@ Clock Oscillator:
 * There were issues with the clock in our PCB, resistors that were in series had to be removed, and the output of our clock buffer required pull up resistors.
 * Our voltage regulators were also not all working, they needed to be resoldered and some parts needed to be removed.
 * After working on removing the resistors, we decided that it was best to start again since our board started to get damaged.
+* e-con Systems Developmenbt
 
 # 11/6/23: Soldered 2nd PCB Board
 * Issues with our clock were fixed, but then we realized that we were not getting voltage on our board after plugging it in.
@@ -205,6 +206,31 @@ Clock Oscillator:
 # 11/24/23:
 * Ran USB 2.0 Firmware on the board, were able to enumerate a pattern directly from memory:
 <img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f5bf8966-296f-4350-b8cd-9f2a20be9859">
+# 11/25:
+* Isha designed CAD enclosure for development board so that it can fit a C Mount lense
+<img width="696" alt="Screenshot 2023-12-05 at 5 29 28 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/7ba88ddd-0a76-447c-90f2-cf02b1bdce21">
+<img width="655" alt="Screenshot 2023-12-05 at 5 29 40 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/97842905-1afa-462e-9302-a25e4c1040bc">
+
 # 11/28/23:
-* Tested the development board code in the Biosensor's Lab
-*  
+
+* Tested the development board code in the Biosensor's Lab, was able to get IR spectral sensitvity
+* Experimental Setup:
+<img width="283" alt="Screenshot 2023-12-05 at 5 16 25 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/ba486b58-89b0-413c-a315-2b0f21e3b7d7">
+<img width="166" alt="Screenshot 2023-12-05 at 5 16 33 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/8b59c936-78a3-457b-a784-52323eb93db9">
+* IR Sensitvity Result
+<img width="45" alt="Screenshot 2023-12-05 at 5 17 37 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/b025490f-1443-4a06-805a-1ae03e94ab03">
+# 11/28/23:
+* Final Demo
+# 11/29/23:
+* Since preliminary CAD Enclosures didn't work, we reiterated our CAD Design with same dimensions
+* <img width="241" alt="Screenshot 2023-12-05 at 5 31 42 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/c5f9d5b5-2714-4873-87d9-d05a69fb0ed9">
+# 12/1/23:
+* CAD Print Warped
+<img width="185" alt="Screenshot 2023-12-05 at 5 32 21 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/3409c790-73f7-4622-a7ed-346ddc227092">
+# 12/3/23:
+* Worked on Final Presentation and Final Report
+# 12/4/23:
+* Worked on Final Report, practiced final presentation
+# 12/5/23:
+* Pitched final presentation, finished final report.
+* Got CAD enclosure from Siebel Center. 
