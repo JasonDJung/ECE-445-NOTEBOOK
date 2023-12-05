@@ -194,8 +194,6 @@ https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 # 11/15/23:
 * Soldered pull up resistors on Vcc on the clock buffer
 * Clock is noisy, not identified correctly on the device:
-* 
-* 
 # 11/16/23:
 * Realized that our PCB was on the wrong bootmode
 * Are able to download to the program., still not recognized as a camera.
@@ -208,17 +206,16 @@ https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 <img width="204" alt="image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f5bf8966-296f-4350-b8cd-9f2a20be9859">
 # 11/25:
 * Isha designed CAD enclosure for development board so that it can fit a C Mount lense
-<img width="696" alt="Screenshot 2023-12-05 at 5 29 28 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/7ba88ddd-0a76-447c-90f2-cf02b1bdce21">
-<img width="655" alt="Screenshot 2023-12-05 at 5 29 40 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/97842905-1afa-462e-9302-a25e4c1040bc">
+* <img width="696" alt="Screenshot 2023-12-05 at 5 29 28 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/7ba88ddd-0a76-447c-90f2-cf02b1bdce21">
+* <img width="655" alt="Screenshot 2023-12-05 at 5 29 40 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/97842905-1afa-462e-9302-a25e4c1040bc">
 
 # 11/28/23:
-
 * Tested the development board code in the Biosensor's Lab, was able to get IR spectral sensitvity
 * Experimental Setup:
-<img width="283" alt="Screenshot 2023-12-05 at 5 16 25 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/ba486b58-89b0-413c-a315-2b0f21e3b7d7">
-<img width="166" alt="Screenshot 2023-12-05 at 5 16 33 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/8b59c936-78a3-457b-a784-52323eb93db9">
+* <img width="283" alt="Screenshot 2023-12-05 at 5 16 25 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/ba486b58-89b0-413c-a315-2b0f21e3b7d7">
+* <img width="166" alt="Screenshot 2023-12-05 at 5 16 33 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/8b59c936-78a3-457b-a784-52323eb93db9">
 * IR Sensitvity Result
-<img width="45" alt="Screenshot 2023-12-05 at 5 17 37 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/b025490f-1443-4a06-805a-1ae03e94ab03">
+* <img width="45" alt="Screenshot 2023-12-05 at 5 17 37 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/b025490f-1443-4a06-805a-1ae03e94ab03">
 # 11/28/23:
 * Final Demo
 # 11/29/23:
@@ -226,7 +223,7 @@ https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 * <img width="241" alt="Screenshot 2023-12-05 at 5 31 42 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/c5f9d5b5-2714-4873-87d9-d05a69fb0ed9">
 # 12/1/23:
 * CAD Print Warped
-<img width="185" alt="Screenshot 2023-12-05 at 5 32 21 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/3409c790-73f7-4622-a7ed-346ddc227092">
+* <img width="185" alt="Screenshot 2023-12-05 at 5 32 21 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/3409c790-73f7-4622-a7ed-346ddc227092">
 # 12/3/23:
 * Worked on Final Presentation and Final Report
 # 12/4/23:
