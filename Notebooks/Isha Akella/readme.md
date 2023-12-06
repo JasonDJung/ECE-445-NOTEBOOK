@@ -123,7 +123,7 @@ Today we had our weekly meeting with our TA. Following the meeting, our digikey 
 ## 11/3: First attempt at soldering
 With the help of Jason P, we soldered the frontside of our board using the reflow oven. The overall process took around 5 hours. Afterward, we went to Siebel Center for Design to print the first iteration of our enclosure. 
 
-![IMG_3550](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/ca9c736b-9eb8-49c3-a269-a2fd27c2cf13)
+<img width="953" alt="Screen Shot 2023-12-05 at 7 32 36 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/0571cb54-2eab-45e7-a015-9a12d0f9b162">
 
 Figure 11: Soldered Board Frontside
 
