@@ -239,3 +239,44 @@ Today I created a simple box in CAD for the development board. The box thickness
 <img width="673" alt="PNG image" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/72dc6bc2-783a-462d-8487-03946a9919fc">
 
 Figure 26: Initial Box Design
+
+## 11/27:
+Over break, one team member was able to find a basic USB 2.0 code that we were able to program our board with. This program displayed a pink and green image pattern on the screen that we verified with the development board. Both devices show the same pattern which confirms that our MCU does work as a USB 2.0 device. Today, we also contacted Professor Gruev to set up a time to test IR on our development board for tomorrow, as facilities were closed over break and we were unable to 3D print the enclosure.
+
+<img width="404" alt="Screen Shot 2023-12-05 at 7 25 30 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/3dc72643-3190-40f5-ba5a-c843830b5dfd">
+
+Figure 27: Expected Pink Image Pattern from our Device
+
+<img width="1206" alt="Screen Shot 2023-12-05 at 7 27 53 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/b1a03ffa-bf6b-4171-a386-e5d304a669b9">
+
+Figure 28: Updated CAD Design
+
+
+## 11/28:
+Today we picked up the enclosure and it was not the right size. I adjusted the CAD design to account for extruding components on the board and reprinted it. We used a makeshift setup and tested the IR capabilities of our development board in Professor Gruev's Biosensors lab with the assistance of Brianna Hayek. We used a fluorophore and were able to visualize a faint outline of the IR spectra.
+
+<img width="468" alt="Screen Shot 2023-12-05 at 7 28 56 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/12906ec6-5eef-476a-bcce-5206d41eee8a">
+
+Figure 29: Makeshift Testing Set Up
+
+<img width="124" alt="Screen Shot 2023-12-05 at 7 29 14 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/1dd8c587-fc53-487b-8577-4ab7097a826c">
+
+Figure 30: IR Image
+
+## 11/29: Final Demo
+Today we had our final demo and it went well!
+
+## 11/30: 
+Today I went to pick up the second iteration of our dev board enclosure and worked on our mock demo slides.
+
+## 12/1: Mock Presentation
+Today we met to practice and then present for our mock presentation. We received generally good feedback and just need to reduce the number of words on our slides.
+
+## 12/3:
+Today we worked on the final presentation slides and began working on our final paper.
+
+## 12/4:
+Today we practiced our final presentation, I had my peer review, and we finished writing the technical content of our final paper.
+
+## 12/5: Final Presentation and Deliverables
+We had our final presentation today and then reviewed our final paper before submitting it. We also created and submitted our project video for extra credit. 
