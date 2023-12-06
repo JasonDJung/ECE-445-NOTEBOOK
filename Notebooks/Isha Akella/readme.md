@@ -197,7 +197,6 @@ Figure 19: Updated Clock Input
 
 
 ![newoutput](https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/763e2614-8bb8-4966-9d7f-96ee314f3704)
-<img width="671" alt="Screen Shot 2023-12-05 at 7 31 01 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/cc8c59a3-01af-44a1-9b8a-5a8377d50341">
 
 Figure 20: Updated Clock Output
 
