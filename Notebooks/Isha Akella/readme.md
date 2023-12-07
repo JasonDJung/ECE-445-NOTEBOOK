@@ -287,3 +287,6 @@ We picked up our updated dev board enclosure and everything fits perfectly. We a
 <img width="481" alt="Screen Shot 2023-12-06 at 10 47 13 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/cfe96abe-004f-461e-9a4f-c113a121f494">
 
 Figure 31: Dev Board Enclosure
+
+## 12/7: Lab Checkout
+Today, we had our lab checkout with Jason Zhang and handed all our materials to him. We are also meeting with Professor Gruev next week .
