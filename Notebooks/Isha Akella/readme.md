@@ -263,7 +263,7 @@ Figure 29: Makeshift Testing Set Up
 
 Figure 30: IR Image
 
-## 11/29: Final Demo
+## 11/29: Final Demo:
 Today we had our final demo and it went well!
 
 ## 11/30: 
@@ -278,5 +278,12 @@ Today we worked on the final presentation slides and began working on our final 
 ## 12/4:
 Today we practiced our final presentation, I had my peer review, and we finished writing the technical content of our final paper.
 
-## 12/5: Final Presentation and Deliverables
+## 12/5: Final Presentation and Deliverables:
 We had our final presentation today and then reviewed our final paper before submitting it. We also created and submitted our project video for extra credit. 
+
+## 12/6 Dev Board Enclosure:
+We picked up our updated dev board enclosure and everything fits perfectly. We are now ready to give all of our materials to Professor Gruev so that his research group may continue the project. 
+
+<img width="481" alt="Screen Shot 2023-12-06 at 10 47 13 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/84357995/cfe96abe-004f-461e-9a4f-c113a121f494">
+
+Figure 31: Dev Board Enclosure
