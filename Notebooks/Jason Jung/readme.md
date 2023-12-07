@@ -61,13 +61,15 @@
 * 10am: Design Review For Cross Checking
 * 3pm - 5pm: Team Meeting to Review Cross Checking Documents and questions
 * All checked each other's schematics and asked questions as appropriately
-* Jason (USB-C Schematic)<img width="524" alt="Screenshot 2023-12-05 at 5 00 53 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f0950ba9-e4a2-47ab-93b6-439e89ec0256">
-Voltage Regulators:
-<img width="617" alt="Screenshot 2023-12-05 at 5 01 54 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/6f91dd3a-8452-4d8d-b910-99985ea0fe60">
-Clock Oscillator:
-<img width="376" alt="Screenshot 2023-12-05 at 5 03 54 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/bc3d28ef-4e9e-44d6-887c-f0f82269b97b">
+* Jason (USB-C Schematic)
+* <img width="524" alt="Screenshot 2023-12-05 at 5 00 53 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/f0950ba9-e4a2-47ab-93b6-439e89ec0256">
+* Voltage Regulators:
+* <img width="617" alt="Screenshot 2023-12-05 at 5 01 54 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/6f91dd3a-8452-4d8d-b910-99985ea0fe60">
+* Clock Oscillator:
+* <img width="376" alt="Screenshot 2023-12-05 at 5 03 54 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/bc3d28ef-4e9e-44d6-887c-f0f82269b97b">
 
-* Isha (MCU Schematic)<img width="283" alt="Screenshot 2023-12-05 at 5 00 40 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/8e959c02-b8bd-4f23-ba7c-39754bbfbe84">
+* Isha (MCU Schematic)
+* <img width="283" alt="Screenshot 2023-12-05 at 5 00 40 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/8e959c02-b8bd-4f23-ba7c-39754bbfbe84">
 
 * Amartya (Imager Sensor)
 * <img width="382" alt="Screenshot 2023-12-05 at 5 00 27 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/b636e418-1d51-4d36-9546-18dc04958b68">
@@ -124,7 +126,7 @@ Clock Oscillator:
 # 10/16 - 10/17
 * Met with Professor Gruev to go over design, implemented feedback. Finished new revision of PCB Board
 * <img width="275" alt="Screenshot 2023-12-01 at 3 32 22 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1d88eeb5-db1f-4eed-a9f2-c6e7519a14c9">
-<img width="579" alt="Screenshot 2023-12-01 at 3 33 08 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1f0a5112-6ed6-4ecd-b684-0fa4bd10d9ae">
+* <img width="579" alt="Screenshot 2023-12-01 at 3 33 08 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/1f0a5112-6ed6-4ecd-b684-0fa4bd10d9ae">
 * Sources:
 * https://www.pcbway.com/capabilities.html#
 # 10/19 
@@ -135,7 +137,7 @@ Clock Oscillator:
 * Dielectric and PrePeg layers were intiially thought to be 4.5 and 0.1mm when they are 4.29 and 0.11mm respectively in reality.
 * Had to rerout USB 3.1 Traces, but kept MIPI CSI-2 Signals the same.
 * Started Development Board Code Research because it came in:
-<img width="653" alt="Screenshot 2023-12-05 at 5 22 06 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/e69d884a-d206-4622-b39b-646085580c1a">
+* <img width="653" alt="Screenshot 2023-12-05 at 5 22 06 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/e69d884a-d206-4622-b39b-646085580c1a">
 * We had the OV5640 Camera board attachment
 https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 # 10/24
@@ -231,4 +233,6 @@ https://www.e-consystems.com/CX3-Reference-Design-Kit.asp
 * Worked on Final Report, practiced final presentation
 # 12/5/23:
 * Pitched final presentation, finished final report.
-* Got CAD enclosure from Siebel Center. 
+* Got CAD enclosure from Siebel Center. It fits! Ready to turn in final product
+* <img width="400" alt="Screenshot 2023-12-06 at 7 58 27 PM" src="https://github.com/JasonDJung/ECE-445-NOTEBOOK/assets/81931855/3b63ff56-f769-43c5-a68b-d1d759ac5891">
+
